@@ -1,0 +1,43 @@
+
+@charset "utf-8";
+
+@font-face {
+    font-family: 'pokemon';
+    src: url(../estilos/fontes/pokemon/Pokemon\ Hollow.ttf);}
+
+h1 {font-family: 'pokemon';
+font-size: 40px;}
+
+p.one 
+{line-height: 30%;}
+
+p.recuo 
+{text-indent:2em;
+margin-top: 50px;}
+
+body 
+{margin-left: 10%;
+margin-right: 10%;
+margin-bottom: 100px;
+background-color: lightgrey ;}
+ 
+div.pokemon_img 
+{ position:absolute;
+margin-left: 30px;}
+
+div.pokemon_status
+{margin-left: 200px;
+border: 1px solid;
+border-color: rgb(85, 85, 85);
+border-radius: 10px;
+padding: 10px;}
+
+h2.poke_name
+{margin-bottom: 50px;
+margin-top: 20px;}
+
+h2.continua
+{margin-left: 940px;}
+
+
+
